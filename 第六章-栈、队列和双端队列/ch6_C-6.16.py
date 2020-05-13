@@ -20,7 +20,6 @@ class ArrayStack:
     def push(self, e):
         if self._max_len == len(self._data):
             raise StackFull("Stack is full")
-
         self._data.append(e)
         print(self._data)
 
